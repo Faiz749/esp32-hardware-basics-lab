@@ -45,30 +45,6 @@ Fake Temperature <= 30 C → NORMAL
 Fake Temperature > 30 C  → WARNING
 ```
 
-## Output
-
-When the fake temperature is normal:
-
-```text
--------------------------
-System: READY
-Uptime: 3 sec
-Fake Temperature: 28 C
-Status: NORMAL
--------------------------
-```
-
-When the fake temperature becomes high:
-
-```text
--------------------------
-System: READY
-Uptime: 5 sec
-Fake Temperature: 31 C
-Status: WARNING
--------------------------
-```
-
 ## Mistakes Fixed
 
 * I learned how to print a clean debug report on the Serial Monitor.
